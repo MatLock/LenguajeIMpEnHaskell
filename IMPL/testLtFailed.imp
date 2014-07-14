@@ -1,0 +1,6 @@
+x = false;
+y = 1;
+if(1 < false) then
+print "GENIO!, estas en 'C'"
+else
+print "no estas en 'C'"

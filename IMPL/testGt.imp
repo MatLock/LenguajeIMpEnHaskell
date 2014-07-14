@@ -1,0 +1,7 @@
+x = 1;
+y = 2;
+
+if (y > x) then
+print "y es mayor que x"
+else
+print "x es mayor"
