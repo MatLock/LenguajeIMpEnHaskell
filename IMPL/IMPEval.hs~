@@ -92,3 +92,4 @@ start p = (step (exec p)) empty
 checkVBool :: Value -> Interpreter Bool
 checkVBool (VBool b) = return b
 checkVBool _         = fail "TYPE ERROR: condicion no booleana!"
+

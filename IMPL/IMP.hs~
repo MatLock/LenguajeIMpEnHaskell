@@ -6,7 +6,7 @@ import IMPChecker
 import IMPEval
 
 main :: IO ()
-main = do code <- readFile "test.imp"
+main = do code <- readFile "testAnd.imp"
           let program   = parseProgram code
               typeCheck = checkP program
            in 
